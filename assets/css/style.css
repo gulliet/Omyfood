@@ -119,6 +119,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin: 36px 0;
 }
 .presentation__title {
   width: 275px;
@@ -129,4 +130,13 @@ body {
   width: 315px;
   height: 46px;
   font-size: 18px;
+}
+.presentation__button {
+  width: 218px;
+  height: 50px;
+  color: white;
+  background-image: linear-gradient(#ff79da, #9356dc);
+  border-radius: 25px;
+  border: none;
+  margin: 36px;
 }/*# sourceMappingURL=style.css.map */

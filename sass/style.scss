@@ -176,6 +176,7 @@ body {
         display: flex;
         width: 335px;
         height: 72.38px;
+        gap: 24px;
 
         &--number {
             display: flex;
@@ -186,6 +187,10 @@ body {
             border-radius: 50%;
             justify-content: center;
             align-items: center;
+        }
+
+        &--icon {
+            color: $primary-color;
         }
     }
 }

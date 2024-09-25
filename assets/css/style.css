@@ -117,6 +117,7 @@ body {
   width: 275px;
   height: 68px;
   font-size: 24px;
+  margin-block: 0;
 }
 .presentation__text {
   width: 315px;

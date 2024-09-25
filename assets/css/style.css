@@ -111,7 +111,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 36px 0;
+  margin: 48px 0;
 }
 .presentation__title {
   width: 275px;
@@ -130,5 +130,16 @@ body {
   background-image: linear-gradient(#ff79da, #9356dc);
   border-radius: 25px;
   border: none;
-  margin: 36px;
+  margin: 36px 0 0 0;
+}
+
+.how-to {
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  height: 440px;
+  padding: 48px 0 48px 20px;
+}
+.how-to h2 {
+  margin: 0;
 }/*# sourceMappingURL=style.css.map */

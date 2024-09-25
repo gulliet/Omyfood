@@ -130,7 +130,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 36px 0;
+    margin: 48px 0;
 
     &__title {
         width: 275px;
@@ -151,6 +151,18 @@ body {
         background-image: linear-gradient($secondary-color, $primary-color);
         border-radius: 25px;
         border: none;
-        margin: 36px;
+        margin: 36px 0 0 0;
+    }
+}
+
+.how-to {
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    height: 440px;
+    padding: 48px 0 48px 20px;
+
+    & h2 {
+        margin: 0;
     }
 }

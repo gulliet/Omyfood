@@ -149,18 +149,17 @@ p {
   padding: 48px 0 48px 20px;
   gap: 26px;
 }
-
-.step-container {
-  display: flex;
-  flex-direction: column;
+.how-to ol {
+  list-style-type: none;
+  counter-reset: item;
+  margin: 0%;
+  padding: 0%;
 }
-.step-container__step {
-  display: flex;
-  width: 335px;
-  height: 72.38px;
-  gap: 24px;
+.how-to ol li {
+  counter-increment: item;
 }
-.step-container__step--number {
+.how-to ol li::before {
+  content: counter(item);
   display: flex;
   width: 24px;
   height: 24px;
@@ -169,6 +168,16 @@ p {
   border-radius: 50%;
   justify-content: center;
   align-items: center;
+}
+
+.step-container__step {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  align-items: baseline;
+  width: 335px;
+  height: 72.38px;
+  gap: 24px;
 }
 .step-container__step--icon {
   color: #9356dc;

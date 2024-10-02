@@ -16,6 +16,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -68,42 +70,6 @@ a {
     &-black {
         font-weight: 900;
     }
-}
-
-.roboto-thin-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-style: italic;
-}
-
-.roboto-light-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-style: italic;
-}
-
-.roboto-regular-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-}
-
-.roboto-medium-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: italic;
-}
-
-.roboto-bold-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-}
-
-.roboto-black-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    font-style: italic;
 }
 
 .shrikhand-regular {
@@ -236,16 +202,19 @@ a {
 .restaurant-cards {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    height: 1000px;
     width: 340px;
     padding: 18px 0px;
     margin-top: 56px;
+    gap: 20px;
 }
 
 .card {
     display: flex;
     flex-direction: column;
     width: 340px;
-    // height: 251px;
+    height: 251px;
     background-color: white;
     border-radius: 15px;
     padding: 0.313rem;
@@ -274,6 +243,8 @@ a {
         background-color: #99E2D0;
         padding: 7px;
         font-size: 14px;
+        border-radius: 2px;
+        filter: drop-shadow(0rem 0.188rem 0.938rem rgba(0, 0, 0, 0.1));
     }
 }
 
@@ -301,5 +272,26 @@ a {
 
     &__badge {
         display: flex;
+    }
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: #353535;
+    color: white;
+    gap: 16px;
+    padding: 22px 25px;
+
+    & ul {
+        list-style-type: none;
+        margin: 0%;
+        padding: 0%;
+        gap: 16px;
+    }
+
+    & ul li {
+        padding: auto;
     }
 }

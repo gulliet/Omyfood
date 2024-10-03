@@ -99,13 +99,12 @@ a {
   margin: 48px 0;
 }
 .presentation__title {
-  width: 275px;
-  height: 68px;
+  width: 70%;
   font-size: 24px;
+  margin-bottom: 22px;
 }
 .presentation__text {
-  width: 315px;
-  height: 46px;
+  width: 80%;
   font-size: 18px;
 }
 .presentation__button {

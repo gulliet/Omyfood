@@ -66,18 +66,17 @@ a {
 .header {
   display: flex;
   flex-direction: column;
-  width: 100%;
 }
 .header__logo {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  height: 63px;
   box-sizing: border-box;
 }
 .header__logo--img {
   width: 162px;
   height: 44px;
+  padding-top: 19px;
 }
 .header__location {
   display: flex;
@@ -161,9 +160,11 @@ a {
   color: #9356dc;
 }
 
-.restaurant {
+.restaurants {
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
+  background-color: grey;
 }
 
 .restaurant-cards {
@@ -171,14 +172,13 @@ a {
   flex-direction: column;
   width: 340px;
   padding: 18px 0px;
-  margin-top: 56px;
   gap: 20px;
 }
 
 .card {
   display: flex;
   flex-direction: column;
-  width: 340px;
+  max-width: 100%;
   background-color: white;
   border-radius: 15px;
   padding: 0.313rem;

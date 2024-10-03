@@ -203,7 +203,6 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 1000px;
     width: 340px;
     padding: 18px 0px;
     margin-top: 56px;
@@ -214,7 +213,6 @@ a {
     display: flex;
     flex-direction: column;
     width: 340px;
-    height: 251px;
     background-color: white;
     border-radius: 15px;
     padding: 0.313rem;
@@ -279,6 +277,7 @@ a {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
+    width: 375px;
     background-color: #353535;
     color: white;
     gap: 16px;

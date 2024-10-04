@@ -282,14 +282,21 @@ a {
     gap: 16px;
     padding: 22px 25px;
 
+    & h2 {
+        padding-bottom: 16px;
+    }
+
     & ul {
         list-style-type: none;
         margin: 0%;
         padding: 0%;
-        gap: 16px;
-    }
 
-    & ul li {
-        padding: auto;
+        & li {
+            padding: 4px 0;
+
+            & i {
+                padding-right: 10px;
+            }
+        }
     }
 }

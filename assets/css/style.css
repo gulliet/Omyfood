@@ -247,12 +247,17 @@ a {
   gap: 16px;
   padding: 22px 25px;
 }
+.footer h2 {
+  padding-bottom: 16px;
+}
 .footer ul {
   list-style-type: none;
   margin: 0%;
   padding: 0%;
-  gap: 16px;
 }
 .footer ul li {
-  padding: auto;
+  padding: 4px 0;
+}
+.footer ul li i {
+  padding-right: 10px;
 }/*# sourceMappingURL=style.css.map */

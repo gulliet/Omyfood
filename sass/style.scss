@@ -3,7 +3,13 @@
 $primary-color: #9356dc;
 $secondary-color: #ff79da;
 $tertiary-color: #99e2d0;
-$background-color: #f6f6f6;
+// $background-color: #f6f6f6;
+$background-color: grey;
+
+@mixin bg-white-100 {
+    width: 100%;
+    background-color: white;
+}
 
 * {
     font-family: "Roboto", sans-serif;
@@ -79,6 +85,7 @@ a {
 .header {
     display: flex;
     flex-direction: column;
+    @include bg-white-100();
 
     &__logo {
         display: flex;
@@ -99,6 +106,7 @@ a {
         align-items: center;
         height: 50px;
         gap: 17px;
+        margin: 2px 0;
 
         &--icon {
             width: 12px;
@@ -114,6 +122,7 @@ a {
     align-items: center;
     text-align: center;
     margin: 48px 0;
+    @include bg-white-100();
 
     &__title {
         width: 70%;
@@ -141,10 +150,9 @@ a {
 .how-to {
     display: flex;
     flex-direction: column;
-    // width: 375px;
-    // height: 440px;
     padding: 48px 0 48px 20px;
     gap: 26px;
+    @include bg-white-100();
 
     & ol {
         list-style-type: none;
@@ -191,13 +199,11 @@ a {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    background-color: grey;
 }
 
 .restaurant-cards {
     display: flex;
     flex-direction: column;
-    // width: 340px;
     padding: 18px 0px;
     gap: 20px;
 }

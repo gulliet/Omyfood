@@ -11,7 +11,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #f6f6f6;
+  background-color: grey;
 }
 
 main {
@@ -67,6 +67,8 @@ a {
 .header {
   display: flex;
   flex-direction: column;
+  width: 100%;
+  background-color: white;
 }
 .header__logo {
   display: flex;
@@ -85,6 +87,7 @@ a {
   align-items: center;
   height: 50px;
   gap: 17px;
+  margin: 2px 0;
 }
 .header__location--icon {
   width: 12px;
@@ -98,6 +101,8 @@ a {
   align-items: center;
   text-align: center;
   margin: 48px 0;
+  width: 100%;
+  background-color: white;
 }
 .presentation__title {
   width: 70%;
@@ -124,6 +129,8 @@ a {
   flex-direction: column;
   padding: 48px 0 48px 20px;
   gap: 26px;
+  width: 100%;
+  background-color: white;
 }
 .how-to ol {
   list-style-type: none;
@@ -163,7 +170,6 @@ a {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  background-color: grey;
 }
 
 .restaurant-cards {

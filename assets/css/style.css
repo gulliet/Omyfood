@@ -247,31 +247,20 @@ a {
   display: flex;
 }
 
-#myCheckbox {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  width: 0;
-  height: 0;
-  border: none;
-  overflow: hidden;
-}
-#myCheckbox:checked {
-  background-color: red;
-  border: red;
-  width: 30px;
-}
-#myCheckbox:not(:checked) {
-  width: 40px;
+input[type=checkbox] {
+  display: none;
 }
 
-#myCheckbox + label::before {
-  content: "";
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  border: 1px solid gray;
-  background-color: white;
+#plein {
+  display: none;
+}
+
+#test:checked ~ #plein {
+  display: block;
+}
+
+#test:checked ~ #vide {
+  display: none;
 }
 
 .heart {

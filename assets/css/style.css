@@ -134,6 +134,7 @@ a {
 .how-to {
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
   padding: 48px 0 48px 20px;
   gap: 26px;
   width: 100%;

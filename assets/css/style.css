@@ -11,7 +11,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: grey;
+  background-color: #f6f6f6;
 }
 
 main {
@@ -65,7 +65,7 @@ a {
 }
 
 .main-container {
-  width: 375px;
+  width: auto;
 }
 
 .header {
@@ -121,14 +121,16 @@ a {
   width: 218px;
   height: 50px;
   color: white;
-  background-image: linear-gradient(#ff79da, #9356dc);
   border-radius: 25px;
   border: none;
   margin: 36px 0 0 0;
   filter: drop-shadow(0rem 0.188rem 0.938rem rgba(0, 0, 0, 0.1));
+  background-size: 0%;
+  transition: background-image 2s ease, background-size 0.3s ease;
 }
 .presentation__button:hover {
-  background-image: linear-gradient(#9356dc, #ff79da);
+  background-image: linear-gradient(to right, rgba(255, 0, 0, 0.5), rgba(0, 0, 255, 0.5));
+  background-size: 100%;
 }
 
 .how-to {

@@ -3,8 +3,8 @@
 $primary-color: #9356dc;
 $secondary-color: #ff79da;
 $tertiary-color: #99e2d0;
-// $background-color: #f6f6f6;
-$background-color: grey;
+$background-color: #f6f6f6;
+// $background-color: grey;
 
 @mixin bg-white-100 {
     width: 100%;
@@ -83,7 +83,8 @@ a {
 }
 
 .main-container {
-    width: 375px;
+    // width: 375px;
+    width: auto;
 }
 
 .header {
@@ -143,14 +144,23 @@ a {
         width: 218px;
         height: 50px;
         color: white;
-        background-image: linear-gradient($secondary-color, $primary-color);
+        // background-image: linear-gradient($secondary-color, $primary-color);
         border-radius: 25px;
         border: none;
         margin: 36px 0 0 0;
         filter: drop-shadow(0rem 0.188rem 0.938rem rgba(0, 0, 0, 0.1));
+        // transition: transform 2s;
+        // transition: background-image 2s ease;
+        // background-image: linear-gradient(to right, rgba(255, 0, 0, 1), rgba(0, 0, 255, 1));
+        // transition: background-image 2s ease;
+        background-size: 0%;
+        transition: background-image 2s ease, background-size 0.3s ease;
 
         &:hover {
-            background-image: linear-gradient($primary-color, $secondary-color);
+            // transform: scale(1.25);
+            // background-image: linear-gradient($primary-color, $secondary-color);
+            background-image: linear-gradient(to right, rgba(255, 0, 0, 0.5), rgba(0, 0, 255, 0.5));
+            background-size: 100%;
         }
     }
 }

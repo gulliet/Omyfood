@@ -251,35 +251,16 @@ input[type=checkbox] {
   display: none;
 }
 
-#plein {
+#full-heart {
   display: none;
 }
 
-#test:checked ~ #plein {
+#heart:checked ~ #full-heart {
   display: block;
 }
 
-#test:checked ~ #vide {
+#heart:checked ~ #empty-heart {
   display: none;
-}
-
-.heart {
-  background: linear-gradient(to bottom, #FF79DA, #9356DC);
-  -webkit-background-clip: text;
-          background-clip: text;
-  color: transparent;
-}
-
-.full-heart {
-  opacity: 1;
-  transition-property: all;
-  transition-duration: 2s;
-}
-
-.full-heart:hover {
-  opacity: 0;
-  color: #9747ff;
-  fill: linear-gradient(to bottom, #FF79DA, #9356DC);
 }
 
 .footer {

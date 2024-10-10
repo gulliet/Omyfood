@@ -295,6 +295,7 @@ input[type="checkbox"] {
 
 #heart:checked~#full-heart {
     display: block;
+    color: red;
 }
 
 #heart:checked~#empty-heart {

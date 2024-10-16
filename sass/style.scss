@@ -294,7 +294,7 @@ input[type="checkbox"] {
 
 #heart-1:checked~#full-heart-1 {
     display: block;
-    color: red;
+    color: $primary-color;
 }
 
 #heart-1:checked~#empty-heart-1 {
@@ -307,7 +307,7 @@ input[type="checkbox"] {
 
 #heart-2:checked~#full-heart-2 {
     display: block;
-    color: red;
+    color: $primary-color;
 }
 
 #heart-2:checked~#empty-heart-2 {
@@ -320,7 +320,7 @@ input[type="checkbox"] {
 
 #heart-3:checked~#full-heart-3 {
     display: block;
-    color: red;
+    color: $primary-color;
 }
 
 #heart-3:checked~#empty-heart-3 {
@@ -333,7 +333,7 @@ input[type="checkbox"] {
 
 #heart-4:checked~#full-heart-4 {
     display: block;
-    color: red;
+    color: $primary-color;
 }
 
 #heart-4:checked~#empty-heart-4 {

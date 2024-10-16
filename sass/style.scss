@@ -163,7 +163,7 @@ a {
     box-sizing: border-box;
     padding: 48px 0 48px 20px;
     gap: 26px;
-    @include bg-white-100();
+    background-color: white;
 
     & ol {
         list-style-type: none;

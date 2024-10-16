@@ -373,6 +373,11 @@ input[type="checkbox"] {
         background-color: gray;
     }
 
+    .step-container {
+        display: flex;
+        flex-direction: row;
+    }
+
     .footer {
         flex-direction: row-reverse;
     }

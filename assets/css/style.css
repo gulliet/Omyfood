@@ -347,7 +347,7 @@ input[type=checkbox] {
   .restaurant-cards {
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
   }
   .restaurant-cards a {
     width: 45%;

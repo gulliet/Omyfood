@@ -144,9 +144,10 @@ a {
   flex-direction: column;
   flex-wrap: wrap;
   box-sizing: border-box;
-  padding: 48px 20px;
   gap: 26px;
   background-color: white;
+  width: 100%;
+  padding: 48px 12.5%;
 }
 .how-to ol {
   list-style-type: none;

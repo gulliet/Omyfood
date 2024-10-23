@@ -93,8 +93,9 @@ a {
 }
 .header__logo--img {
   width: 162px;
-  height: 44px;
+  height: 40px;
   padding-top: 15px;
+  padding-right: 63px;
 }
 .header__go-back {
   display: flex;
@@ -111,13 +112,18 @@ a {
   justify-content: center;
   align-items: center;
   text-align: center;
+  box-sizing: border-box;
   width: 100%;
-  background-color: white;
+  border-radius: 35px 35px 0 0;
+  margin-top: -15px;
+  border: 2px solid green;
+  background-color: #f6f6f6;
   gap: 40px;
 }
 .menu__header {
   display: flex;
   box-sizing: border-box;
+  margin-top: 30px;
   gap: 30px;
 }
 .menu__header h1 {
@@ -125,7 +131,9 @@ a {
 }
 .menu__header label {
   display: flex;
+  justify-content: center;
   align-items: center;
+  padding-top: 16px;
 }
 
 .presentation {

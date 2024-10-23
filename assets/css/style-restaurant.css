@@ -135,6 +135,16 @@ a {
   align-items: center;
 }
 
+.menu-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: right;
+}
+.menu-section h2 {
+  font-size: 16px;
+}
+
 .order-button {
   width: 180px;
   height: 50px;
@@ -153,25 +163,20 @@ a {
 
 .card-content {
   display: flex;
+  flex-direction: column;
   box-sizing: border-box;
   width: 100%;
-  justify-content: space-between;
-  align-items: center;
   padding: 18px 12px;
+}
+.card-content h3 {
+  font-size: 18px;
 }
 .card-content__txt {
   display: flex;
-  flex-direction: column;
   gap: 6px 0px;
 }
-.card-content__txt h3 {
-  font-size: 18px;
-}
 .card-content__txt p {
-  font-size: 17px;
-}
-.card-content__badge {
-  display: flex;
+  font-size: 15px;
 }
 
 input[type=checkbox] {

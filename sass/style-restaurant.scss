@@ -164,8 +164,11 @@ a {
 .menu-section {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: right;
+    width: 100%;
+    align-items: start;
+    text-align: left;
+
+    border: 2px solid green;
 
     & h2 {
         font-size: 16px;
@@ -195,9 +198,9 @@ a {
     flex-direction: column;
     box-sizing: border-box;
     width: 100%;
-    // justify-content: space-between;
-    // align-items: center;
     padding: 18px 12px;
+
+    border: 2px solid red;
 
     & h3 {
         font-size: 18px;

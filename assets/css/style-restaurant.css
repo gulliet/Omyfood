@@ -72,7 +72,6 @@ a {
 .main-section {
   display: flex;
   flex-direction: column;
-  margin-top: 16px;
 }
 .main-section img {
   height: 275px;
@@ -87,13 +86,18 @@ a {
 .header__logo {
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   box-sizing: border-box;
   width: 100%;
+  border: 2px solid red;
+}
+.header__logo p {
+  font-size: 30px;
+  padding-right: 63px;
 }
 .header__logo--img {
   width: 162px;
-  height: 40px;
+  height: 30px;
   padding-top: 15px;
   padding-right: 63px;
 }
@@ -104,6 +108,7 @@ a {
   box-sizing: border-box;
   width: 63px;
   height: 63px;
+  border: 2px solid blue;
 }
 
 .menu {
@@ -115,7 +120,7 @@ a {
   box-sizing: border-box;
   width: 100%;
   border-radius: 35px 35px 0 0;
-  margin: -15px 0 36px 0;
+  margin: -25px 0 36px 0;
   border: 2px solid green;
   background-color: #f6f6f6;
   gap: 40px;

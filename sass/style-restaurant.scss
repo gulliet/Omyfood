@@ -95,7 +95,7 @@ a {
 
 .header {
     display: flex;
-    flex-direction: column;
+
     @include bg-white-100();
 
     &__logo {
@@ -103,26 +103,22 @@ a {
         justify-content: center;
         align-items: flex-end;
         box-sizing: border-box;
+        width: 100%;
 
         &--img {
             width: 162px;
             height: 44px;
-            padding-top: 19px;
+            padding-top: 15px;
         }
     }
 
-    &__location {
+    &__go-back {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 50px;
-        gap: 17px;
-        margin: 2px 0;
-
-        &--icon {
-            width: 12px;
-            height: 16px;
-        }
+        box-sizing: border-box;
+        width: 63px;
+        height: 63px;
     }
 }
 

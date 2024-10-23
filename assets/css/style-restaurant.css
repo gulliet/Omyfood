@@ -76,7 +76,6 @@ a {
 
 .header {
   display: flex;
-  flex-direction: column;
   width: 100%;
   background-color: white;
 }
@@ -85,23 +84,20 @@ a {
   justify-content: center;
   align-items: flex-end;
   box-sizing: border-box;
+  width: 100%;
 }
 .header__logo--img {
   width: 162px;
   height: 44px;
-  padding-top: 19px;
+  padding-top: 15px;
 }
-.header__location {
+.header__go-back {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50px;
-  gap: 17px;
-  margin: 2px 0;
-}
-.header__location--icon {
-  width: 12px;
-  height: 16px;
+  box-sizing: border-box;
+  width: 63px;
+  height: 63px;
 }
 
 .presentation {

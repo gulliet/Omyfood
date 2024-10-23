@@ -135,27 +135,8 @@ a {
   align-items: center;
 }
 
-.presentation {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 48px 0;
-  width: 100%;
-  background-color: white;
-}
-.presentation__title {
-  width: 70%;
-  font-size: 24px;
-  margin-bottom: 22px;
-}
-.presentation__text {
-  width: 80%;
-  font-size: 18px;
-}
-.presentation__button {
-  width: 218px;
+.order-button {
+  width: 180px;
   height: 50px;
   color: white;
   border-radius: 25px;
@@ -165,105 +146,9 @@ a {
   background: linear-gradient(175deg, rgb(147, 86, 220) 0%, rgb(255, 121, 218) 100%);
   transition: all 1s ease;
 }
-.presentation__button:hover {
+.order-button:hover {
   opacity: 0.8;
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.35);
-}
-
-.how-to {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  box-sizing: border-box;
-  gap: 26px;
-  background-color: white;
-  width: 100%;
-  padding: 48px 4%;
-}
-.how-to ol {
-  list-style-type: none;
-  counter-reset: item;
-  margin: 0%;
-  padding: 0%;
-}
-.how-to ol li {
-  counter-increment: item;
-}
-.how-to ol li::before {
-  content: counter(item);
-  display: flex;
-  width: 24px;
-  height: 24px;
-  background-color: #9356dc;
-  color: white;
-  border-radius: 50%;
-  justify-content: center;
-  align-items: center;
-}
-
-.step-container__step {
-  display: flex;
-  align-content: center;
-  flex-wrap: wrap;
-  align-items: baseline;
-  width: 335px;
-  height: 72.38px;
-  gap: 24px;
-}
-.step-container__step--icon {
-  color: #9356dc;
-}
-
-.restaurants {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  padding: 0 4%;
-  background-color: white;
-  box-sizing: border-box;
-}
-
-.restaurant-cards {
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  padding: 18px 0px;
-  gap: 20px;
-}
-
-.card {
-  display: flex;
-  flex-direction: column;
-  max-width: 100%;
-  background-color: white;
-  border-radius: 15px;
-  padding: 0.313rem;
-  box-sizing: border-box;
-  filter: drop-shadow(0rem 0.188rem 0.938rem rgba(0, 0, 0, 0.1));
-}
-.card img {
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  width: 100%;
-  max-height: 231px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  box-sizing: border-box;
-}
-.card__image-container {
-  position: relative;
-}
-.card__text-overlay {
-  position: absolute;
-  top: 15%;
-  left: 85%;
-  transform: translate(-50%, -50%);
-  color: #008766;
-  background-color: #99E2D0;
-  padding: 7px;
-  font-size: 14px;
-  border-radius: 2px;
-  filter: drop-shadow(0rem 0.188rem 0.938rem rgba(0, 0, 0, 0.1));
 }
 
 .card-content {

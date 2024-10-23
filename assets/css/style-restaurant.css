@@ -170,6 +170,7 @@ a {
   box-sizing: border-box;
   width: 100%;
   padding: 18px 12px;
+  gap: 8px;
   border: 2px solid red;
 }
 .card-content h3 {
@@ -177,7 +178,7 @@ a {
 }
 .card-content__txt {
   display: flex;
-  gap: 6px 0px;
+  justify-content: space-between;
 }
 .card-content__txt p {
   font-size: 15px;

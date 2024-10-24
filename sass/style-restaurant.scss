@@ -262,30 +262,8 @@ input[type="checkbox"] {
 
 @media screen and (min-width : 768px) {
 
-    $padding-left-right: 8%;
-
-    .how-to {
-        padding: 48px $padding-left-right;
-    }
-
-    .step-container {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-
-    .restaurants {
-        padding: 0 $padding-left-right;
-    }
-
-    .restaurant-cards {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-
-        & a {
-            width: 45%;
-        }
+    .menu {
+        width: 84%;
     }
 
     .footer {
@@ -319,14 +297,9 @@ input[type="checkbox"] {
 }
 
 @media screen and (min-width : 1024px) {
-    $padding-left-right: 12%;
 
-    .how-to {
-        padding: 40px $padding-left-right;
-    }
-
-    .restaurants {
-        padding: 0px $padding-left-right;
+    .menu {
+        width: 75%;
     }
 
 }

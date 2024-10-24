@@ -221,24 +221,8 @@ input[type=checkbox] {
 }
 
 @media screen and (min-width: 768px) {
-  .how-to {
-    padding: 48px 8%;
-  }
-  .step-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  .restaurants {
-    padding: 0 8%;
-  }
-  .restaurant-cards {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  .restaurant-cards a {
-    width: 45%;
+  .menu {
+    width: 84%;
   }
   .footer {
     flex-direction: row-reverse;
@@ -266,11 +250,8 @@ input[type=checkbox] {
   }
 }
 @media screen and (min-width: 1024px) {
-  .how-to {
-    padding: 40px 12%;
-  }
-  .restaurants {
-    padding: 0px 12%;
+  .menu {
+    width: 75%;
   }
 }
 @media screen and (min-width: 1440px) {

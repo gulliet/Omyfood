@@ -85,7 +85,6 @@ a {
   align-items: center;
   box-sizing: border-box;
   width: 100%;
-  border: 2px solid red;
 }
 .header__logo p {
   font-size: 30px;
@@ -98,7 +97,6 @@ a {
   box-sizing: border-box;
   width: 63px;
   height: 63px;
-  border: 2px solid blue;
 }
 
 .menu {
@@ -113,7 +111,6 @@ a {
   margin: -36px 0 36px 0;
   background-color: #f6f6f6;
   gap: 40px;
-  border: 2px solid green;
 }
 .menu__header {
   display: flex;
@@ -134,11 +131,11 @@ a {
   display: flex;
   flex-direction: column;
   width: 100%;
+  max-width: 634px;
   align-items: start;
   text-align: left;
   padding: 0 4%;
   box-sizing: border-box;
-  border: 2px solid green;
 }
 .menu-section h2 {
   font-size: 16px;
@@ -147,7 +144,7 @@ a {
   width: 40px;
 }
 .menu-section__line hr {
-  border: 3px solid #99E2D0;
+  border: 3px solid #99e2d0;
 }
 
 .order-button {
@@ -173,7 +170,6 @@ a {
   width: 100%;
   padding: 18px 12px;
   gap: 8px;
-  border: 2px solid red;
 }
 .card-content h3 {
   font-size: 18px;
@@ -263,13 +259,5 @@ input[type=checkbox] {
   }
   .menu {
     width: 75%;
-  }
-}
-@media screen and (min-width: 1440px) {
-  body {
-    background-color: gray;
-  }
-  .main-container {
-    border: 2px solid red;
   }
 }/*# sourceMappingURL=style-restaurant.css.map */

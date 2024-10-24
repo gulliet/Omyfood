@@ -169,6 +169,14 @@ a {
         font-size: 16px;
     }
 
+    &__line {
+        width: 40px;
+
+        & hr {
+            border: 3px solid #99E2D0;
+
+        }
+    }
 }
 
 .order-button {

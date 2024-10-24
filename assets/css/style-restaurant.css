@@ -70,6 +70,8 @@ a {
 .main-section img {
   height: 275px;
   width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .header {
@@ -250,6 +252,9 @@ input[type=checkbox] {
   }
 }
 @media screen and (min-width: 1024px) {
+  .main-section img {
+    height: 371px;
+  }
   .menu {
     width: 75%;
   }

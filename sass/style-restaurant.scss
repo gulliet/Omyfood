@@ -221,6 +221,12 @@ a {
     }
 }
 
+.ellipsis {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
 input[type="checkbox"] {
     display: none;
 }

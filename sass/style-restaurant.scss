@@ -101,8 +101,6 @@ a {
         box-sizing: border-box;
         width: 100%;
 
-        // border: 2px solid red;
-
         & p {
             font-size: 30px;
             padding-right: 63px;
@@ -116,8 +114,6 @@ a {
         box-sizing: border-box;
         width: 63px;
         height: 63px;
-
-        // border: 2px solid blue;
     }
 }
 
@@ -133,8 +129,6 @@ a {
     margin: -36px 0 36px 0;
     background-color: #f6f6f6;
     gap: 40px;
-
-    // border: 2px solid green;
 
     &__header {
         display: flex;
@@ -164,8 +158,6 @@ a {
     text-align: left;
     padding: 0 4%;
     box-sizing: border-box;
-
-    // border: 2px solid green;
 
     & h2 {
         font-size: 16px;
@@ -205,8 +197,6 @@ a {
     width: 100%;
     padding: 18px 12px;
     gap: 8px;
-
-    // border: 2px solid red;
 
     & h3 {
         font-size: 18px;

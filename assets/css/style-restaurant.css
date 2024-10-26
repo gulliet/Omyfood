@@ -117,6 +117,7 @@ a {
   box-sizing: border-box;
   margin-top: 30px;
   gap: 30px;
+  padding: 0 1rem;
 }
 .menu__header h1 {
   font-size: 28px;

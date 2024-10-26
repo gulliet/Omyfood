@@ -177,6 +177,7 @@ a {
 .card-content__txt {
   display: flex;
   justify-content: space-between;
+  gap: 4px;
 }
 .card-content__txt p {
   font-size: 15px;

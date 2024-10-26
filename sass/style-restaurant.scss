@@ -214,6 +214,7 @@ a {
     &__txt {
         display: flex;
         justify-content: space-between;
+        gap: 4px;
 
         & p {
             font-size: 15px;

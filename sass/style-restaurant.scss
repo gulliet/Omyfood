@@ -218,6 +218,22 @@ a {
     overflow: hidden;
 }
 
+.checkmark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 59px;
+    height: 69px;
+    background-color: $tertiary-color;
+
+    &__selected {
+        // color: red;
+        // background-color: #f6f6f6;
+        // color: $tertiary-color;
+        color: #f6f6f6;
+    }
+}
+
 input[type="checkbox"] {
     display: none;
 }

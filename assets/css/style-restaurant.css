@@ -190,6 +190,18 @@ a {
   overflow: hidden;
 }
 
+.checkmark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 59px;
+  height: 69px;
+  background-color: #99e2d0;
+}
+.checkmark__selected {
+  color: #f6f6f6;
+}
+
 input[type=checkbox] {
   display: none;
 }

@@ -171,6 +171,9 @@ a {
   width: 100%;
   padding: 18px 12px;
   gap: 8px;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  border: 2px solid red;
 }
 .card-content h3 {
   font-size: 18px;

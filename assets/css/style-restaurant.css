@@ -193,6 +193,11 @@ a {
   overflow: hidden;
 }
 
+.hidden-box {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
 .checkmark {
   display: flex;
   justify-content: center;

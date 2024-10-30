@@ -407,9 +407,10 @@ input[type="checkbox"] {
         flex-wrap: wrap;
         justify-content: space-between;
 
-        & a {
-            width: 45%;
-        }
+    }
+
+    .card {
+        width: 45%;
     }
 
     .footer {

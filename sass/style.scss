@@ -297,6 +297,11 @@ input[type="checkbox"] {
     display: none;
 }
 
+// [id^="heart_toggle_"]:checked
+// [id^="heart-"]:checked~.full-heart {
+//     display: none;
+// }
+
 #full-heart-1 {
     display: none;
 }
@@ -306,6 +311,7 @@ input[type="checkbox"] {
     color: $primary-color;
 }
 
+// [id^="heart-"]checked~.full-heart
 #heart-1:checked~#empty-heart-1 {
     display: none;
 }

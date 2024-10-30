@@ -225,6 +225,8 @@ a {
     width: 59px;
     height: 69px;
     background-color: $tertiary-color;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
 
     &__selected {
         // color: red;

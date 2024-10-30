@@ -197,6 +197,8 @@ a {
   width: 59px;
   height: 69px;
   background-color: #99e2d0;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
 }
 .checkmark__selected {
   color: #f6f6f6;

@@ -217,16 +217,16 @@ input[type=checkbox] {
   display: none;
 }
 
-#full-heart {
+.full-heart {
   display: none;
 }
 
-#heart:checked ~ #full-heart {
+#heart:checked ~ .full-heart {
   display: block;
   color: #9356dc;
 }
 
-#heart:checked ~ #empty-heart {
+#heart:checked ~ .empty-heart {
   display: none;
 }
 

@@ -272,33 +272,6 @@ input[type=checkbox] {
   display: none;
 }
 
-#heart-2:checked ~ #full-heart-2 {
-  display: block;
-  color: #9356dc;
-}
-
-#heart-2:checked ~ #empty-heart-2 {
-  display: none;
-}
-
-#heart-3:checked ~ #full-heart-3 {
-  display: block;
-  color: #9356dc;
-}
-
-#heart-3:checked ~ #empty-heart-3 {
-  display: none;
-}
-
-#heart-4:checked ~ #full-heart-4 {
-  display: block;
-  color: #9356dc;
-}
-
-#heart-4:checked ~ #empty-heart-4 {
-  display: none;
-}
-
 .footer {
   display: flex;
   flex-direction: column;

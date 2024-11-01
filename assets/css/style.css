@@ -259,20 +259,16 @@ input[type=checkbox] {
   display: none;
 }
 
-#full-heart-1 {
+.full-heart {
   display: none;
 }
 
-#heart-1:checked ~ #full-heart-1 {
+[id^=heart-]:checked ~ .full-heart {
   display: block;
   color: #9356dc;
 }
 
-#heart-1:checked ~ #empty-heart-1 {
-  display: none;
-}
-
-#full-heart-2 {
+[id^=heart-]:checked ~ .empty-heart {
   display: none;
 }
 
@@ -285,20 +281,12 @@ input[type=checkbox] {
   display: none;
 }
 
-#full-heart-3 {
-  display: none;
-}
-
 #heart-3:checked ~ #full-heart-3 {
   display: block;
   color: #9356dc;
 }
 
 #heart-3:checked ~ #empty-heart-3 {
-  display: none;
-}
-
-#full-heart-4 {
   display: none;
 }
 

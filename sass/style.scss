@@ -302,23 +302,32 @@ input[type="checkbox"] {
 //     display: none;
 // }
 
-#full-heart-1 {
+.full-heart {
     display: none;
 }
 
-#heart-1:checked~#full-heart-1 {
+[id^="heart-"]:checked~.full-heart {
     display: block;
     color: $primary-color;
 }
 
+// #heart-1:checked~#full-heart-1 {
+//     display: block;
+//     color: $primary-color;
+// }
+
 // [id^="heart-"]checked~.full-heart
-#heart-1:checked~#empty-heart-1 {
+[id^="heart-"]:checked~.empty-heart {
     display: none;
 }
 
-#full-heart-2 {
-    display: none;
-}
+// #heart-1:checked~#empty-heart-1 {
+//     display: none;
+// }
+
+// #full-heart-2 {
+//     display: none;
+// }
 
 #heart-2:checked~#full-heart-2 {
     display: block;
@@ -329,9 +338,9 @@ input[type="checkbox"] {
     display: none;
 }
 
-#full-heart-3 {
-    display: none;
-}
+// #full-heart-3 {
+//     display: none;
+// }
 
 #heart-3:checked~#full-heart-3 {
     display: block;
@@ -342,9 +351,9 @@ input[type="checkbox"] {
     display: none;
 }
 
-#full-heart-4 {
-    display: none;
-}
+// #full-heart-4 {
+//     display: none;
+// }
 
 #heart-4:checked~#full-heart-4 {
     display: block;

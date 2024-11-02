@@ -297,11 +297,6 @@ input[type="checkbox"] {
     display: none;
 }
 
-// [id^="heart_toggle_"]:checked
-// [id^="heart-"]:checked~.full-heart {
-//     display: none;
-// }
-
 .full-heart {
     display: none;
 }
@@ -311,58 +306,9 @@ input[type="checkbox"] {
     color: $primary-color;
 }
 
-// #heart-1:checked~#full-heart-1 {
-//     display: block;
-//     color: $primary-color;
-// }
-
-// [id^="heart-"]checked~.full-heart
 [id^="heart-"]:checked~.empty-heart {
     display: none;
 }
-
-// #heart-1:checked~#empty-heart-1 {
-//     display: none;
-// }
-
-// #full-heart-2 {
-//     display: none;
-// }
-
-// #heart-2:checked~#full-heart-2 {
-//     display: block;
-//     color: $primary-color;
-// }
-
-// #heart-2:checked~#empty-heart-2 {
-//     display: none;
-// }
-
-// #full-heart-3 {
-//     display: none;
-// }
-
-// #heart-3:checked~#full-heart-3 {
-//     display: block;
-//     color: $primary-color;
-// }
-
-// #heart-3:checked~#empty-heart-3 {
-//     display: none;
-// }
-
-// #full-heart-4 {
-//     display: none;
-// }
-
-// #heart-4:checked~#full-heart-4 {
-//     display: block;
-//     color: $primary-color;
-// }
-
-// #heart-4:checked~#empty-heart-4 {
-//     display: none;
-// }
 
 .footer {
     display: flex;

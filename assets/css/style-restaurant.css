@@ -174,7 +174,6 @@ a {
   gap: 8px;
   border-radius: 1rem;
   background-color: white;
-  margin: 0 0 0.5rem 0;
   opacity: 0;
   /* Départ invisible */
   transform: translateY(20px);
@@ -222,6 +221,7 @@ a {
 .card-container {
   display: flex;
   width: 100%;
+  margin: 0 0 0.5rem 0;
 }
 
 .hidden-box {
@@ -233,6 +233,8 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 79px;
+  box-sizing: border-box;
   background-color: #99e2d0;
   border-top-right-radius: 1rem;
   border-bottom-right-radius: 1rem;

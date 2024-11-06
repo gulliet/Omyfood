@@ -82,6 +82,7 @@ a {
 .main-section {
     display: flex;
     flex-direction: column;
+    background-color: white;
 
     & img {
         height: 275px;
@@ -126,7 +127,8 @@ a {
     box-sizing: border-box;
     width: 100%;
     border-radius: 50px 50px 0 0;
-    margin: -36px 0 36px 0;
+    margin: -36px 0 0 0;
+    padding: 0 0 36px 0;
     background-color: #f6f6f6;
     gap: 40px;
 
@@ -260,6 +262,7 @@ a {
 .card-container {
     display: flex;
     width: 100%;
+    background-color: white;
     margin: 0 0 0.5rem 0;
 }
 

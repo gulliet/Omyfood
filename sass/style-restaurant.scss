@@ -200,6 +200,35 @@ a {
     background-color: white;
     margin: 0 0 0.5rem 0;
 
+    opacity: 0;
+    /* Départ invisible */
+    transform: translateY(20px);
+    /* Légère translation vers le bas */
+    animation: fadeIn 1.5s forwards;
+
+    /* Animation qui apparait en 0.5s */
+    /* Animation de base pour fadeIn */
+    @keyframes fadeIn {
+        to {
+            opacity: 1;
+            transform: translateY(0);
+            /* Revient à sa position normale */
+        }
+    }
+
+    /* Ajouter des délais pour chaque élément */
+    .card-content:nth-child(1) {
+        animation-delay: 2s;
+    }
+
+    .card-content:nth-child(2) {
+        animation-delay: 4s;
+    }
+
+    .card-content:nth-child(3) {
+        animation-delay: 6s;
+    }
+
     border: 2px solid red;
 
     & h3 {

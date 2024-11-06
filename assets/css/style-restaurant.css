@@ -175,6 +175,7 @@ a {
   border-radius: 1rem;
   background-color: white;
   margin-right: -79px;
+  transition: all 1s ease-in-out;
   opacity: 0;
   /* Départ invisible */
   transform: translateY(20px);
@@ -184,6 +185,9 @@ a {
   /* Animation de base pour fadeIn */
   /* Ajouter des délais pour chaque élément */
   border: 2px solid red;
+}
+.card-content:hover {
+  margin-right: 0;
 }
 @keyframes fadeIn {
   to {

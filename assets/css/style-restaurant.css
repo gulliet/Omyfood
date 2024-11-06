@@ -219,6 +219,10 @@ a {
   overflow: hidden;
 }
 
+.card-container {
+  display: flex;
+}
+
 .hidden-box {
   display: flex;
   flex-direction: row-reverse;
@@ -228,8 +232,6 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 59px;
-  height: 69px;
   background-color: #99e2d0;
   border-top-right-radius: 1rem;
   border-bottom-right-radius: 1rem;

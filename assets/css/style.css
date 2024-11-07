@@ -81,8 +81,8 @@ a {
   color: #9356dc;
   width: 10rem;
   height: 10rem;
-  border: 6px solid #ff79da;
-  border-top: 6px solid transparent;
+  border: 0.4rem solid #ff79da;
+  border-top: 0.4rem solid transparent;
   border-radius: 50%;
   animation: spin 1s linear infinite;
 }

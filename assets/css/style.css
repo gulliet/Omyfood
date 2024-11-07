@@ -205,16 +205,17 @@ a {
   flex-direction: column;
   flex-wrap: wrap;
   box-sizing: border-box;
-  gap: 26px;
+  gap: 1.6rem;
   background-color: white;
   width: 100%;
-  padding: 48px 4%;
+  padding: 3rem 4%;
 }
 .how-to ol {
   list-style-type: none;
   counter-reset: item;
   margin: 0%;
   padding: 0%;
+  gap: 0 15%;
 }
 .how-to ol li {
   counter-increment: item;
@@ -364,6 +365,9 @@ input[type=checkbox] {
 @media screen and (min-width: 768px) {
   .how-to {
     padding: 48px 8%;
+  }
+  .how-to ol {
+    gap: 0 5%;
   }
   .step-container {
     display: flex;

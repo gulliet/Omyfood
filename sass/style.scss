@@ -239,16 +239,17 @@ a {
     flex-direction: column;
     flex-wrap: wrap;
     box-sizing: border-box;
-    gap: 26px;
+    gap: 1.6rem;
     background-color: white;
     width: 100%;
-    padding: 48px $padding-left-right;
+    padding: 3rem $padding-left-right;
 
     & ol {
         list-style-type: none;
         counter-reset: item;
         margin: 0%;
         padding: 0%;
+        gap: 0 15%;
     }
 
     & ol li {
@@ -418,6 +419,10 @@ input[type="checkbox"] {
 
     .how-to {
         padding: 48px $padding-left-right;
+
+        & ol {
+            gap: 0 5%;
+        }
     }
 
     .step-container {

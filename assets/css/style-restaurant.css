@@ -180,7 +180,6 @@ a {
   background-color: white;
   margin-right: -79px;
   transition: all 1s ease-in-out;
-  border: 2px solid red;
 }
 .card-content:hover {
   margin-right: 0;

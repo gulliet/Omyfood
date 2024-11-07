@@ -12,7 +12,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: gray;
+  background-color: #f6f6f6;
 }
 
 main {
@@ -112,7 +112,7 @@ a {
   border-radius: 50px 50px 0 0;
   margin: -36px 0 0 0;
   padding: 0 0 36px 0;
-  background-color: gray;
+  background-color: #f6f6f6;
   gap: 40px;
 }
 .menu__header {

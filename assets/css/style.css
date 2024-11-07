@@ -236,9 +236,8 @@ a {
   align-content: center;
   flex-wrap: wrap;
   align-items: baseline;
-  width: 335px;
-  height: 72.38px;
-  gap: 24px;
+  height: 5rem;
+  gap: 1.5rem;
 }
 .step-container__step--icon {
   color: #9356dc;

@@ -239,33 +239,28 @@ a {
     border-radius: 1rem;
     background-color: white;
     margin: 0 0 0.5rem 0;
-    opacity: 0;
-    /* Départ invisible */
-    transform: translateY(20px);
-    /* Légère translation vers le bas */
-    animation: fadeIn 1.5s forwards;
 
-    /* Animation qui apparait en 0.5s */
-    /* Animation de base pour fadeIn */
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 3s forwards;
+
     @keyframes fadeIn {
         to {
             opacity: 1;
             transform: translateY(0);
-            /* Revient à sa position normale */
         }
     }
 
-    /* Ajouter des délais pour chaque élément */
     .card-containert:nth-child(1) {
-        animation-delay: 2s;
+        animation-delay: 1s;
     }
 
     .card-container:nth-child(2) {
-        animation-delay: 4s;
+        animation-delay: 2s;
     }
 
     .card-container:nth-child(3) {
-        animation-delay: 6s;
+        animation-delay: 3s;
     }
 }
 
@@ -283,15 +278,11 @@ a {
     align-items: center;
     width: 79px;
     box-sizing: border-box;
-    // height: 69px;
     background-color: $tertiary-color;
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;
 
     &__selected {
-        // color: red;
-        // background-color: #f6f6f6;
-        // color: $tertiary-color;
         color: #f6f6f6;
     }
 }

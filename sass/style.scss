@@ -75,23 +75,22 @@ a {
     font-style: normal;
 }
 
-/* Le loader : centré à l'écran */
 .loader {
     position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
     height: 100vh;
+
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.8);
+
     z-index: 9999;
     animation: fadeOutLoader 3s forwards;
-    /* Animation pour faire disparaître le loader */
 }
 
-/* Le cercle de chargement */
 .loader::after {
     content: '';
     width: 50px;
@@ -102,7 +101,6 @@ a {
     animation: spin 1s linear infinite;
 }
 
-/* Animation de rotation du loader */
 @keyframes spin {
     0% {
         transform: rotate(0deg);
@@ -113,7 +111,6 @@ a {
     }
 }
 
-/* Animation pour faire disparaître le loader et afficher le contenu */
 @keyframes fadeOutLoader {
     0% {
         opacity: 1;
@@ -129,15 +126,12 @@ a {
     }
 }
 
-/* Le contenu de la page, caché au départ */
 .content {
     visibility: hidden;
     opacity: 0;
     animation: fadeInContent 3s ease-in 3s forwards;
-    /* Affichage du contenu après le délai du loader */
 }
 
-/* Animation pour faire apparaître le contenu */
 @keyframes fadeInContent {
     0% {
         opacity: 0;

@@ -3,7 +3,8 @@
 $primary-color: #9356dc;
 $secondary-color: #ff79da;
 $tertiary-color: #99e2d0;
-$background-color: #f6f6f6;
+// $background-color: #f6f6f6;
+$background-color: gray;
 
 @mixin bg-white-100 {
     width: 100%;
@@ -129,7 +130,7 @@ a {
     border-radius: 50px 50px 0 0;
     margin: -36px 0 0 0;
     padding: 0 0 36px 0;
-    background-color: #f6f6f6;
+    background-color: $background-color;
     gap: 40px;
 
     &__header {

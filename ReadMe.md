@@ -12,4 +12,5 @@ C'est un des nombreux projets de développement Web front-end dans le cadre de l
 
 ## Comment y accéder ?
 
-Pour cela, allez sur https://gulliet.github.io/Omyfood/
+Pour cela, allez sur https://gulliet.github.io/Omyfood/ pour le site web live sur GitHub pages,
+ou bien sur la repository git https://github.com/gulliet/Omyfood.
